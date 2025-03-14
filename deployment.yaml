@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test
-  namespace: test-admin-role
+  namespace: test-openshift-gitops
 spec:
   selector:
     matchLabels:
